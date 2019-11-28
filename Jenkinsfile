@@ -48,7 +48,7 @@ pipeline{
 
             steps{
 
-                sh "cp /root/.jenkins/workspace/build_pipe/mvnproj/target/newproj.war /opt/apache-tomcat-9.0.26/webapps"
+                sh "cp /opt/.jenkins/workspace/scripted/target/newproj.war /opt/apache-tomcat-9.0.29/webapps"
 
             }
 
